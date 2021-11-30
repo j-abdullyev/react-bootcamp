@@ -1,0 +1,25 @@
+.todo_add{
+    width: 500px;
+    margin: 0 auto;
+}
+.add_input{
+    border: 1px solid #CED4DA;
+    padding: 10px;
+    border-radius: 8px;
+    width: 381px;
+    outline: none;
+    margin-right: 5px;
+}
+.add_btn{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #6C757D;
+    color: #6C757D;
+    padding: 10px;
+    transition: .2s linear;
+}
+.add_btn:hover{
+    background-color: #6C757D;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.header{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin:  50px auto 0;
+    align-items: baseline;
+}
+.counts_todo{
+    color: #75757D;
+    font-size: 24px;
+
+}

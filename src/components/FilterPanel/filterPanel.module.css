@@ -1,0 +1,26 @@
+.filter_btns button{
+    border: 1px solid #56A848;
+    background-color: white;
+    color: #56A848;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.filter_btns button:hover{
+    background-color: #56A848;
+    color: white;
+}
+.filter_btns button:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.filter_btns button:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.active_btn{
+    background-color: #45A2B8;
+    color: white;
+}

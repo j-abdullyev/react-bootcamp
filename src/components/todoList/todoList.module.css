@@ -1,0 +1,54 @@
+.todo{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.todo ul{
+    text-align: left;
+  
+    padding: 0;
+}
+.todo ul li{
+    list-style: none;
+    border: 1px solid #DFDFDF;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo ul li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.todo ul li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+.icons div{
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.trash_icon{
+    color: #DD4245;
+    border: 1px solid #DD4245; 
+}
+.trash_icon:hover{
+    background-color: #DD4245;
+    color: white;
+}
+.undov_icon{
+    color: #56A848;
+    border: 1px solid #56A848;
+  
+}
+.undov_icon:hover{
+    background-color: #56A848;
+    color: white;
+}
