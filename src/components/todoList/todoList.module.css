@@ -52,3 +52,9 @@
     background-color: #56A848;
     color: white;
 }
+.x{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
