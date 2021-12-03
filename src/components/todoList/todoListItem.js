@@ -1,4 +1,3 @@
-import react from "react";   
 import style from './todoList.module.css'
 import {BiTrash} from 'react-icons/bi'
 import {FaExclamation} from 'react-icons/fa'
@@ -16,8 +15,7 @@ const TodoListItem = ({label, onToggleDone, id, done, onDelete, onImportant, imp
             <div className={style.undov_icon} onClick={() => onImportant(id)}> <FaExclamation /> </div>
         </div>
     </div>
-  
+ 
 )
-
 
 export default TodoListItem

@@ -5,11 +5,11 @@ import {FaExclamation} from 'react-icons/fa'
 import TodoListItem from "./todoListItem";
 
 
-const ToDoList = ({todos, onToggleDone, onDelete, onImportant}) =>{
+const ToDoList = ({item, onToggleDone, onDelete, onImportant}) =>{
     return(
         <div className={style.todo}>
             <ul>
-                {todos.map((item) => (
+                {item.map((item) => (
                     <li key={item.id}  className={style.todo_list}> 
                         <TodoListItem {...item} onToggleDone={onToggleDone} onDelete={onDelete} onImportant={onImportant}/>
                         {/* {item.label}
